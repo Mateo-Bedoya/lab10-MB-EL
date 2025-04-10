@@ -19,13 +19,13 @@ def div(a, b):
     try:
         return a / b
     except ZeroDivisionError:
-        print("Cannot divide by zero")
+        raise ZeroDivisionError("Cannot divide by zero")
 
 def log(a, b):
     try:
         return math.log(a, b)
     except ValueError:
-        print("Cannot use log on negative numbers.")
+        raise ValueError("Cannot use log on negative numbers")
 
 def exp(a, b):
     return a ** b
