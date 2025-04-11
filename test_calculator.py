@@ -30,6 +30,7 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             log(0, 4)
 
+
     # ##########################
     
     ######## Partner 1
