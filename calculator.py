@@ -4,6 +4,9 @@ calculator.py
 
 One function per operation, in order.
 """
+#https://github.com/Mateo-Bedoya/lab10-MB-EL.git
+#Mateo Bedoya
+#Ezra Linnan
 import math
 def square_root(a):
     try:
