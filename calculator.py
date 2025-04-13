@@ -1,12 +1,13 @@
+#https://github.com/Mateo-Bedoya/lab10-MB-EL.git
+#Mateo Bedoya
+#Ezra Linnan
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-#https://github.com/Mateo-Bedoya/lab10-MB-EL.git
-#Mateo Bedoya
-#Ezra Linnan
+
 import math
 def square_root(a):
     try:
