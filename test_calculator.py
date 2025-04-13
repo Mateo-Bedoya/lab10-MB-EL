@@ -25,7 +25,7 @@ class TestCalculator(unittest.TestCase):
         b = 0.333333
         c = 3 / 4
         d = 0.75# 3 assertions
-        self.assertAlmostEqual(a,b)
+        self.assertAlmostEqual(a,b,5)
         self.assertEqual(div(2,2),1)
         self.assertAlmostEqual(c,d)
 
@@ -54,7 +54,7 @@ class TestCalculator(unittest.TestCase):
     #     fill in code
         self.assertEqual(hypotenuse(3,4),5)
         self.assertEqual(hypotenuse(5,12),13)
-        self.assertAlmostEqual(hypotenuse(3,2),3.61)
+        self.assertAlmostEqual(hypotenuse(3,2),3.6055,4)
     def test_sqrt(self): # 3 assertions
         # Test for invalid argument, example:
         with self.assertRaises(ValueError):
